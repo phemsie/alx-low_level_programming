@@ -2,10 +2,9 @@
 
 /**
  *
- * main - Prints onto screen
+ * main - Prints the phrase with proper grammar
  *
- * Return: zero
- *
+ * Return - zero if exited properly, non-zero if otherwise
  */
 
 int main(void)
