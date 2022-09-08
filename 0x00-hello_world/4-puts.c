@@ -2,18 +2,20 @@
 #include <stdio.h>
 /**
  *
- *    * main - print to screen
+ *  * main - Entry point
  *
- *       *
+ *   *
  *
- *          * Return: zero
+ *    * Return: Always 0 (Success)
  *
- *             */
+ *     */
 
 int main(void)
 
 {
 
-		char Mystr[] = "\"Programming is like building a multilingual puzzle";
-		return (0)
+	        puts("\"Programming is like building a multilingual puzzle");
+
+		        return (0);
+
 }
