@@ -1,14 +1,4 @@
 #!/bin/bash
-/**
- *
- *    * main - print to screen
- *
- *       *
- *
- *          * Return: zero
- *
- *             */
-
 int main(void)
 
 {
