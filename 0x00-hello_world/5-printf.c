@@ -3,7 +3,7 @@
 /**
  * main - Prints the phrase with proper grammar
  *
- * Return 0 if exited properly
+ * Return (0) - if exited properly
  */
 
 int main(void)
