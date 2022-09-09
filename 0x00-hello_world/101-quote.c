@@ -1,9 +1,7 @@
 #include <stdio.h>                                                            
 #include <unistd.h>                                                           
 /**                                                                           
- * main - entry point                                                         
- *                                                                            
- * Description: prints and that piece..                                       
+ * main - entry point                                                                                                                  * Description: prints and that piece..                                       
  * Return: 1 if sucessful                                                      
  */                                                                           
 int main(void)                                                                
