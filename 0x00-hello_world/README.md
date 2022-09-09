@@ -1,1 +1,1 @@
-Write a C program that prints exactly
+Write a script that generates the assembly code 
