@@ -1,1 +1,1 @@
-The last digit
+Print alphabet in lower case
