@@ -9,8 +9,7 @@
 /**
  *
  * main - checks if positive, zero or negative
- *
- *
+ * Description: function to check if its negative or positive
  *
  * Return: zero
  *
