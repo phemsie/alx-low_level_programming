@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
-*main - print alphabet in lower case
-*Description: followed by a new line
+*main - Entry point
+*
 *Return: Always 0 (success)
 */
 int main(void)
@@ -14,6 +14,6 @@ int main(void)
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 		putchar(ch);
-		putchar("\n");
+	putchar("\n");
 	return (0);
 }
