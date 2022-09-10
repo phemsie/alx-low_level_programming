@@ -26,7 +26,7 @@ int main(void)
 
 		if (low != e && low != q)
 
-	putchar(low);
+			putchar(low);
 
 	putchar('\n');
 
