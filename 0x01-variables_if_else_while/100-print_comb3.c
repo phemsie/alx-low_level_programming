@@ -17,31 +17,38 @@ int main(void)
 {
 
 		int d;
+		int f;
 
-
-
-		for (d = 0; d < 100; d++)
-
+		for (d = 10; d < 19; d++)
 		{
-
-			putchar((d / 10) + '0');
-
-			putchar((d % 10) + '0');
-
-			if (d != 99)
+			for (f = 10; f <= 19; f++)
 			{
+				if ((f % 10) > (d % 10))
 
-				putchar(',');
+				{
+					putchar((d % 10) + '0');
 
-																					putchar(' ');
+					putchar((f % 10) + '0');
 
-																				}
+					if (d != 18 || f != 19)
+					{
+
+						putchar(',');
+
+						putchar(' ');
+
+
+					}
+
+
+				}
+
+			}
+
+
 		}
+		putchar('\n');
 
-			putchar('\n');
-
-
-
-			return (0);
+		return (0);
 
 }
