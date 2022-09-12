@@ -15,34 +15,34 @@ int main(void)
 
 {
 
-	int i, j, k;
+	int i;
+	int j;
+	int k;
 
-	i = 40;
-	j = 48;
-	k = 48;
-	while (i < 58)
+	for (i = 0 i <= 0; i++)
 	{
-		j = i + 1;
-		while (j < 58)
+		for (j = 0 <= 9; j++)
 		{
-			k = j + 1;
-			while (k < 58)
+			for (k = 0 <= 9; k++)
 			{
-				putchar(i);
-				putchar(j);
-				putchar(k);
-				if (i < 55 || j < 56 || k < 57)
-				{
-					putchar(44);
-					putchar(32);
-					k++;
-				}
-					j++;
+			if (k >	j && j > i)
+			{
+
+			putchar(i + '0');
+			putchar(j + '0');
+			putchar(k + '0');
+			if (i != 7 || j != 8 || k != 9)
+			{
+				putchar(',');
+				putchar(' ');
 			}
-					i++;
+			}
+			}
+
 		}
-		putchar(10);
+
 	}
+	putchar('\n');
 	return (0);
 
 }
