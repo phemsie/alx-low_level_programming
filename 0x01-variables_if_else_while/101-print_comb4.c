@@ -19,11 +19,11 @@ int main(void)
 	int j;
 	int k;
 
-	for (i = 0 i <= 0; i++)
+	for (i = 0; i <= 0; i++)
 	{
-		for (j = 0 <= 9; j++)
+		for (j = 0; j <= 9; j++)
 		{
-			for (k = 0 <= 9; k++)
+			for (k = 0; k <= 9; k++)
 			{
 			if (k >	j && j > i)
 			{
