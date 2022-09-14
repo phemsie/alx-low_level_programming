@@ -1,21 +1,21 @@
-#include <stdio.h>
-#include<stlib.h>
-
+#include <main.h>
 
 /**
- *main - print _putchar as a message
- *
- *Return: Always (0) success
+ * main - print _putchar
+ * Return: always 0
  */
+
 int main(void)
 {
-	int str[] = {94, 22, 45, 99, 112, 116, 98, 87};
-	int count, ch;
-ch = sizeof(str) / sizeof(int);
-	for (count = 0; count < ch; count++)
-	{
-		_putchar(str[count]);
-	}
-	_putchar('\n');
+	_putchar('_');
+	_putchar('P');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putcahar('\n');
+
 	return (0);
 }
