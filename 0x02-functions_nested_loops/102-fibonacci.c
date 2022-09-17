@@ -6,7 +6,7 @@
  *
  * Descriotion: print the sum of even-valued
  * fibonacci sequence not exceeded
- * 4 million
+ * 4million
  *
  * Return: Always 0 (success)
  */
