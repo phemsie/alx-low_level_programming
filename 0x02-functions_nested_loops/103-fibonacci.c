@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include "stddef.h"
+#include <stdlib.h>
 
 /**
  * numLength - returns the length of string
