@@ -33,11 +33,11 @@ int main(void)
 		}
 		if (i != 100)
 		{
-			printf(" ");
+			putchar(" ");
 		}
 		i++;
 	}
-	printf('\n');
+	putchar('\n');
 
 	return (0);
 
