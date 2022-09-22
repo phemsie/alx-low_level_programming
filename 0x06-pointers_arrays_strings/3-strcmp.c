@@ -9,7 +9,7 @@
  * equal and more than zero if s1 is more than s2
  */
 
-int _strcmp(char *s1, char *s2);
+int _strcmp(char *s1, char *s2)
 {
 	int result = 0, i = 0;
 
