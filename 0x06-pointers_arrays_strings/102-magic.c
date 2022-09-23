@@ -9,12 +9,12 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/*
-	 * write your line of codes here
-	 * Remember
+	 * write your line of codes here...
+	 * Remember;
 	 * - your are not allowed to use a
-	 *   you areallowed to modify p
-	 *   only one statement
-	 *   you are not allowed to code anything other than this
+	 * - you areallowed to modify p
+	 * - only one statement
+	 * - you are not allowed to code anything other than this
 	 */
 	*(p + 5) = 98
 	/*... so that this print 98\n */
