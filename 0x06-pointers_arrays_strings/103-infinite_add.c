@@ -21,7 +21,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	i--;
 	j--;
 
-	if (j >= size_r) || (i >= size_r)
+	if (j >= size_r || i >= size_r)
 		return (0);
 	while (j >= 0 || i >= 0 || overflow == 1)
 	{
