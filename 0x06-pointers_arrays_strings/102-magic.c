@@ -10,7 +10,7 @@ int main(void)
 	p = &n;
 	/*
 	 * write your line of codes here...
-	 * Remember;
+	 * Remember:
 	 * - your are not allowed to use a
 	 * - you areallowed to modify p
 	 * - only one statement
@@ -18,6 +18,6 @@ int main(void)
 	 */
 	*(a + 2) = 98
 	/*... so that this print 98\n */
-	printf("a[22] = %d\n", a[2]);
+	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
