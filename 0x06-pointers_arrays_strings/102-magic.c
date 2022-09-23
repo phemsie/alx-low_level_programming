@@ -12,9 +12,9 @@ int main(void)
 	 * write your line of codes here...
 	 * Remember:
 	 * - your are not allowed to use a
-	 * - you areallowed to modify p
+	 * - you are not allowed to modify p
 	 * - only one statement
-	 * - you are not allowed to code anything other than this
+	 * - you are not allowed to code anything other than this line of code
 	 */
 	*(p + 5) = 98;
 	/*... so that this print 98\n */
