@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef FILE_MAIN
+#define FILE_MAIN
 
 /**
 * void prototypes()
@@ -17,4 +17,4 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, *to);
 
-#endif /*MAIN_H*/
+#endif
