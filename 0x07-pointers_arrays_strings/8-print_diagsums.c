@@ -1,9 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsums - prints the sum of the two digonals
  * @a: square matrix of which w print the dagonals
  * @size: size of the matrix
+ * Return: void
  */
 
 void print_diagsums(int *a, int size)
