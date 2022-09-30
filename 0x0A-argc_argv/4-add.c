@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - program that add positive itegers
+ * main - programme that add positive itegers
  * @argc: argument counter
  * @argv: argument vector
  * Return: zero
