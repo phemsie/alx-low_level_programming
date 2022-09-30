@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
 	b = atol(argv[2]);
 
 	printf("%d\n", a * b);
-	return (1);
+	return (0);
 	}
 	printf("Error\n");
-	return (0);
+	return (1);
 }
