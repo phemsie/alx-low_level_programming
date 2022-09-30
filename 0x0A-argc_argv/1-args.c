@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
  * main - print number of argument passed
@@ -12,6 +11,8 @@
 
 int main(int argc, char *argv[])
 {
+	(void) argv; /*ignore argv*/
 	printf("%d\n", arg - 1);
+	
 	return (0);
 }
