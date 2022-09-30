@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
-#include <time.h>
+#include <stdlib.h>
 
 /**
  * main - programme that add positive itegers
