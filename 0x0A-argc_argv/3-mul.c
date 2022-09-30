@@ -1,26 +1,27 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 
 /**
  * main - program that multiply two numbers
  * @argc: argument counter
  * @argv: argument vector
  *
- * Return: zero
+ * Return: 0 if no errors, else 1
  */
 
 int main(int argc, char *argv[])
 {
-	int a, b;
+	int a, b, c;
 
-	if (argc == 3)
+	if (argc != 3)
 	{
+		puts("Error");
+		return (1);
+	}
 	a = atol(argv[1]);
 	b = atol(argv[2]);
+	c = a * b;
 
-	printf("%d\n", a * b);
+	printf("%d\n", c);
 	return (0);
-	}
-	printf("Error\n");
-	return (1);
 }
