@@ -1,3 +1,13 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ * file - main.h
+ * Author: Henry Oworu
+ * Description: Header files containing the prototypes of all functions
+ * included in the static library of main.h
+ */
+
 int _putchar(char c);
 
 int _islower(int c);
@@ -40,3 +50,4 @@ char *_strstr(char *haystack, char *needle);
 
 int string_length(char *pointer);
 
+#endif
