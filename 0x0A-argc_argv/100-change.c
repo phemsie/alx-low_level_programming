@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
 /**
  * main - print the mnimum no of coins to make change for an amount of money
@@ -12,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int a, i, t, n = 0;
+	int a, n = 0, i, t;
 	int c[5] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
@@ -36,7 +35,7 @@ int main(int argc, char *argv[])
 			if (a == 0)
 				break;
 		}
-		
+
 	}
 	printf("%d\n", n);
 	return (0);
