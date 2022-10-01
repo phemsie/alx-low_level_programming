@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int a, i, t, n = 0;
-	int c[5] = (25, 10, 5, 2. 1);
+	int c[5] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
