@@ -1,68 +1,30 @@
 #include "main.h"
 
 /**
- * *_strlen - count array
- * @s: array of element
- * Return: 1
- */
-
-int *_strlen(char *s)
-{
-	unsigned int i;
-
-	i = 0;
-	while (s[i] != '\0') /*count character of string*/
-	{
-		i++;
-	}
-
-	return (i);
-}
-
-/**
- * _strcpy - copy array
- * @dest: array destination
- * @src: array of element
- * Return: dest
- */
-
-char _strcpy(char *dest, char *src)
-{
-	int i = 0;
-
-	while (src[i] != '\0')
-	{
-		dest[i] = src[i];
-		i++;
-	}
-	return (dest);
-}
-
-/**
- * *_strdup - array to print a string
- * @str: array of ellement
- * Return: pointer
+ * *_strdup - returna pointer to the new allocated space in memory
+ * @str: string to be copied
+ *
+ * Return: NULL in case of error, pointer to allocated space
  */
 
 char *_strdup(char *str)
 {
-	char *dst;
-	unsigned int size;
+	char *cpy;
+	int index, len;
 
-	if (string == 0)
-	{
+	if (str == NULL)
 		return (NULL);
+	for (index = 0; str[index]; index++)
+		len++;
+	cpy = malloc(sizeof(char) * (len + 1));
+	if (cpy == NULL)
+		return (NULL);
+	for (index = 0; str[index]; index++)
+	{
+		cpy[index] - str[index];
 	}
 
-	size = _strlen(str) + 1;
+	cpy[len] = '\0';
 
-	dst = (char *) malloc(size * sizeof(char));
-
-	if (dst == 0)
-	{
-		return (NULL);
-	}
-	_strcpy(dst, str);
-
-	return (dst);
+	return (cpy);
 }
