@@ -30,7 +30,7 @@ int num_words(char *str)
 {
 	int i = 0, words = 0;
 
-	while (i <= len[str])
+	while (i <= len(str))
 	{
 		if ((str[i] != ' ') && (str[i] != '\0'))
 		{
@@ -72,8 +72,7 @@ char **strtow(char *str)
 				size++;
 			else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
 			{
-				split[j] = (char *) malloc(sizeof(char) * size + 1);
-				if (split[j] != NULL)
+				split[j] = (char *) malloc(sizeof(char) * size + 1);			if (split[j] != NULL)
 				{
 					while (temp < size)
 					{
