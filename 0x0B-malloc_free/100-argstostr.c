@@ -29,7 +29,7 @@ int len(char *str)
 char *argstostr(int ac, char **av)
 {
 	char *new_string = NULL;
-	int k = 0, ac, j, sum = 0, temp = 0;
+	int k = 0, j, sum = 0, temp = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
