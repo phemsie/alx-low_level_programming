@@ -42,7 +42,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	int j, k, mul, mulrem, add, addrem;
 
 	mulrem = addrem = 0;
-	for (j = num_index, k = dest_index; j >= 0; j++, k++)
+	for (j = num_index, k = dest_index; j >= 0; j--, k--)
 	{
 		mul = (n - '0') * (num[j] - '0') + mulrem;
 		mulrem = mul / 10;
