@@ -62,6 +62,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	}
 	return (dest);
 }
+
 /**
  * check_for_digits - check the arguments to ensure they are digits
  * @av: pointer to arguments
@@ -98,7 +99,7 @@ void init(char *str, int l)
 
 	for (i = 0; i < l; i++)
 		str[i] = '0';
-	str[i] = '\0';
+	str[i] = '\0'
 }
 
 /**
