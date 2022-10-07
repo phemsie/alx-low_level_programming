@@ -75,7 +75,7 @@ int check_for_digits(char **av)
 {
 	int i, j;
 
-	for (i = 0; i < 3; i++)
+	for (i = 1; i < 3; i++)
 	{
 		for (j = 0; av[i][j]; j++)
 		{
@@ -116,7 +116,7 @@ int main(int argc, char argv[])
 	int l1, l2, ln, ti, i;
 	char *a;
 	char *t;
-	char e[] = "Error\n"
+	char e[] = "Error\n";
 
 	if (argc != 3 || check_for_digits(argv))
 	{
