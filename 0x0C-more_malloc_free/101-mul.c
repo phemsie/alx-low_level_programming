@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
- * _print - move a string one step to the left and print
- * @str: string to be moved
+ * _print - moves a string one place to the left and prints the string
+ * @str: string to move
  * @l: size of string
  *
  * Return: void
@@ -28,14 +27,14 @@ void _print(char *str, int l)
 }
 
 /**
- * mul - multiply a character with a string and place the answer in dest
- * @n: char to mu;tiply
+ * mul - multiplies a char with a string and places the answer into dest
+ * @n: char to multiply
  * @num: string to multiply
- * @num_index: last non NULL of indexpf num
+ * @num_index: last non NULL index of num
  * @dest: destination of multiplication
  * @dest_index: highest index to start addition
  *
- * Return: pointer tor dest, or NULL for failure
+ * Return: pointer to dest, or NULL on failure
  */
 
 char *mul(char n, char *num, int num_index, char *dest, int dest_index)
@@ -43,6 +42,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	int j, k, mul, mulrem, add, addrem;
 
 	mulrem = addrem = 0;
+
 	for (j = num_index, k = dest_index; j >= 0; j--, k--)
 	{
 		mul = (n - '0') * (num[j] - '0') + mulrem;
@@ -51,7 +51,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 		addrem = add / 10;
 		dest[k] = add % 10 + '0';
 	}
-	for (adrem += mulrem; k >= 0 && addrem; k--)
+	for (addrem += mulrem; k >= 0 && addrem; k--)
 	{
 		add = (dest[k] - '0') + addrem;
 		addrem = add / 10;
@@ -65,7 +65,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 }
 
 /**
- * check_for_digits - check the arguments to ensure they are digits
+ * check_for_digits - checks the arguments to ensure they are digits
  * @av: pointer to arguments
  *
  * Return: 0 if digits, 1 if not
@@ -87,9 +87,9 @@ int check_for_digits(char **av)
 }
 
 /**
- * init - initialize a string
- * @str: string to initialize
- * @l: length of a string
+ * init - initializes a string
+ * @str: sting to initialize
+ * @l: length of string
  *
  * Return: void
  */
@@ -100,18 +100,18 @@ void init(char *str, int l)
 
 	for (i = 0; i < l; i++)
 		str[i] = '0';
-	str[i] = '\0'
+	str[i] = '\0';
 }
 
 /**
  * main - multiply two numbers
- * @argc: numbers of arguments
+ * @argc: number of arguments
  * @argv: argument vector
  *
- * Return: 0 or exit status of 98 if failure
+ * Return: zero, or exit status of 98 if failure
  */
 
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int l1, l2, ln, ti, i;
 	char *a;
@@ -120,7 +120,7 @@ int main(int argc, char argv[])
 
 	if (argc != 3 || check_for_digits(argv))
 	{
-		for (t1 = 0; e[ti]; ti++)
+		for (ti = 0; e[ti]; ti++)
 			_putchar(e[ti]);
 		exit(98);
 	}
