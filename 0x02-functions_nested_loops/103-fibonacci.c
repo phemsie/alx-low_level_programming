@@ -19,7 +19,7 @@ int main(void)
 	{
 		if (j < 4000000 && (j % 2) == 0)
 		{
-			sum = sum + j
+			sum = sum + j;
 		}
 		next = j + k;
 		j = k;
