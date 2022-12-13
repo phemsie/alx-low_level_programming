@@ -1,4 +1,3 @@
-#include "holberton.h"
 
 /**
  * _isalpha - checks for alphabet characters
